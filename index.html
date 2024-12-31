@@ -14,15 +14,22 @@
                     }
                 } */
 
+                :root{
+                    --bg-color:  hsl(212, 45%, 89%);
+                    
+                }
 
                 body {
-                    margin: 5%;
+                    /* margin: auto;
+                    width: 70%; */
                     height: 100vh;
                     justify-content: center;
-                    place-items: center;
-                    background-color: rgb(190, 210, 203);
+                    display: flex;
+                    align-items: center;
+                    /* place-items: center; */
+                    background-color:  var(--bg-color);
                     /* border: 2px solid black; */
-                    padding: 10%;
+                    /* padding: 10%; */
                     
 
                 }
@@ -30,7 +37,7 @@
                  .container {
                                width: 300px;
                                /* max-width: fit-content; */
-                               background-color: rgb(253, 242, 226);
+                               background-color: white;
                                position: relative;
                               /*  border: 1px solid black; */
                                border-radius: 3%;
@@ -59,14 +66,23 @@
 
             }
 
+            .bold{
+                color:  hsl(218, 44%, 22%);
+                font-size: 20px;
+            }
+
+            .small{
+                color: hsl(216, 15%, 48%);
+            }
+
     </style>
 </head>
 <div class="container">
 
     <img src="./qr-code-component-main/design/Frontendmentor practice/images/image-qr-code.png" alt="">
 
-<p>
-    <b>Improve your front-end<br> skills by building projects</b>
+<p class="small">
+    <b class="bold">Improve your front-end<br> skills by building projects</b>
  <br><br>
     Scan the Qr code to visit Frontend <br>Mentor and take your 
     coding skills to <br> the next Level!
