@@ -32,7 +32,7 @@
                 background-color: var(--bg-color);
                 /* border: 2px solid black; */
                 /* padding: 10%; */
-
+                font-family: outfit,'Courier New', Courier, monospace,sans-serif;
 
             }
 
@@ -55,6 +55,9 @@
             p {
                 width: auto;
                 font-family: 'Segoe UI';
+                color: hsl(216, 15%, 48%);
+                margin: 0;
+                
             }
 
             img {
@@ -73,9 +76,12 @@
                 font-size: 20px;
             }
 
-            .small {
-                color: hsl(216, 15%, 48%);
+           
+            @font-face {
+                font-family: outfit;
+                src: url(./qr-code-component-main/fonts/Outfit-VariableFont_wght.ttf);
             }
+
         </style>
     </head>
    <main>
@@ -83,14 +89,16 @@
     
             <img src="./qr-code-component-main/design/Frontendmentor practice/images/image-qr-code.png" alt="">
     
-            <p class="small">
-                <b class="bold">Improve your front-end<br> skills by building projects</b>
-                <br><br>
+            <article class="small">
+                <h1 class="bold">Improve your front-end<br> skills by building projects</h1>
+                
     
-                Scan the Qr code to visit Frontend <br>Mentor and take your
-                coding skills to <br> the next Level!
+                <p>
+                    Scan the Qr code to visit Frontend  Mentor and take your
+                    coding skills to <br> the next Level!
+                </p>
     
-            </p>
+            </article>
     
         </div>
    </main>
