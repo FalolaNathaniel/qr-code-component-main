@@ -1,8 +1,4 @@
 
-   * {
-
-   }
-
 :root {
     --bg-color: hsl(212, 45%, 89%);
 
@@ -24,7 +20,7 @@ body {
     width: 300px;
     background-color: white;
     position: relative;
-    border-radius: 3%;
+    border-radius: 10px;
     text-align: center;
     align-self: center;
     padding: 20px;
